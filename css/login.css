@@ -1,0 +1,25 @@
+#login-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.login-form__name {
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.236);
+  color: white;
+}
+
+.login-form__submit {
+  background-color: rgba(0, 0, 0, 0.692);
+  border-radius: 10px;
+  color: white;
+  padding: 15px;
+}
+
+.hidden {
+  display: none;
+}
